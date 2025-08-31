@@ -1,0 +1,8 @@
+a=input("enter your name :")
+print("enter the number",end=" ")
+print(type(a))
+n=input()
+print(type(n))
+k=input("enter first number ")
+l=input("enter second number ")
+print("the addition of two number is ",int(k)+int(l))
