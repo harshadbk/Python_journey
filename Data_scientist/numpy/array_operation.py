@@ -85,3 +85,16 @@ condt = my_array2 > 0
 index_fetch = np.where(condt == False)[0]
 
 print(index_fetch)
+
+
+
+# dot product
+
+s1 = np.arange(12).reshape(3,4)
+s2 = np.arange(12,24).reshape(4,3)
+
+print(s1)
+print(s2)
+
+dotproduct = np.dot(s1,s2)
+print(dotproduct)
