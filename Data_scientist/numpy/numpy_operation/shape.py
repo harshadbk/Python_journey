@@ -14,3 +14,9 @@ arr_3d = np.array([[[1,2],[3,4],[5,6],[7,8]],[[10,11],[12,13],[14,15],[16,17]]])
 
 print(arr_3d)
 print(arr_3d.ndim)
+
+myarr2 = np.arange(24).reshape(4,6)
+
+tmatrix = np.transpose(myarr2)
+print(myarr2)
+print(tmatrix)

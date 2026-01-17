@@ -17,3 +17,22 @@ print("Min value in Array ",np.min(arr2))
 print("Max value in Array ",np.max(arr2))
 print("Std deviation in Array ",np.std(arr2))
 print("Variation in Array ",np.var(arr2))
+
+
+# standard maths formula for calculating ml accuracy
+# sigmoid
+def sigmoid(arr):
+    return 1/(1+np.exp(-(arr)))
+
+arr = np.arange(100)
+print(sigmoid(arr).round(2))
+
+# mean squared error
+
+actual = np.random.randint(1,50,25)
+predicted = np.random.randint(1,50,25)
+
+def mse(actual,predicted):
+    return np.mean((actual-predicted)**2)
+
+print(mse(actual,predicted))

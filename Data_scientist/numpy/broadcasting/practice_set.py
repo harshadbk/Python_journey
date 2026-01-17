@@ -1,7 +1,8 @@
 # 1. Add a scalar value to all elements
 import numpy as np
 
-arr = np.array([23,45,67,43,21,10,29,17])
+arr = np.array([[23,45],[67,43],[21,10],[29,17]])
+arr2 = np.array([4,5])
 
 newarr = arr+2
 print(newarr)
@@ -35,3 +36,8 @@ arr_flat = np.array([4,5,6])
 
 result = arr3d + arr_flat
 print(result)
+
+print(arr + arr2)
+print(arr * arr2)
+print(arr - arr2)
+print(arr / arr2)
